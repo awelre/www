@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; url=https://contact.munii.v6.rocks/">
+    <title>MUNI | Redirecting...</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            background-color: #050505;
+            color: #00ffff;
+            font-family: 'Dela Gothic One', cursive;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .loader {
+            width: 50px;
+            height: 50px;
+            border: 5px solid #111;
+            border-top: 5px solid #ff00ff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 20px;
+            box-shadow: 0 0 15px #ff00ff;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        a {
+            color: #ff00ff;
+            text-decoration: none;
+            margin-top: 20px;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="loader"></div>
+    <h1>Encaminhando para MUNI...</h1>
+    <p style="font-size: 0.9rem; opacity: 0.7;">Redirecionando para contatos</p>
+    
+    <a href="https://contact.munii.v6.rocks/">Clique aqui se não for redirecionado</a>
+
+    <script>
+        // Резервный редирект через JS
+        setTimeout(function() {
+            window.location.replace("https://contact.munii.v6.rocks/");
+        }, 100);
+    </script>
+</body>
+</html>
